@@ -1,0 +1,28 @@
+%YAML 1.2
+---
+race:
+    name: human
+    type: humanoid
+    stats-bonus:
+        intelligence: 1
+    skill-profs:
+        - religion
+        - stealth
+    abilities:
+        - "Yell really loud"
+    languages:
+        - common
+...
+---
+race:
+    name: dwarf
+    type: humanoid
+    stats-bonus:
+        intelligence: 1
+    skill-profs:
+        - religion
+        - stealth
+    abilities:
+        - "Yell really loud"
+    languages:
+        - common

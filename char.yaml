@@ -1,0 +1,25 @@
+---
+character:
+    player-level: 11
+    proficiency-bonus: 4
+
+    # Base stats before race increases (including all ASI increases)
+    # MUST put all 6 or printing a stat block will not work.
+    stats-base:
+        strength: 6 
+        dexterity: 14
+        constitution: 14
+        intelligence: 12
+        wisdom: 18
+        charisma: 17
+
+    # Save proficiencies as determined by class(es) and feats (before race)
+    saving-throw-profs: []
+          
+    # Skill proficiencies as determined by class(es) and feats (before race)
+    skill-profs: []
+
+    # Language from background and original race background (before race) [DM Discretion]
+    languages: []
+
+    abilities: []

@@ -1,0 +1,23 @@
+---
+weights:
+    books:
+        - book-meta:
+            title: Players Handbook
+            file: races/phb.yaml
+          races:
+            - name: human
+              w: 1
+            - name: dwarf
+              w: 1
+        - book-meta:
+            title: Volos
+            file: races/volos.yaml
+          races: 
+            - name: lizardfolk
+              w: 1
+
+    race: 
+        name: custom
+        file: races/other.yaml
+        w: 0
+
