@@ -4,25 +4,65 @@ race:
     name: human
     type: humanoid
     stats-bonus:
+        charisma: 1
+        constitution: 1
+        dexterity: 1
         intelligence: 1
+        strength: 1
+        wisdom: 1
     skill-profs:
-        - religion
-        - stealth
     abilities:
-        - "Yell really loud"
+    speed: 30
     languages:
         - common
 ...
 ---
 race:
-    name: dwarf
+    name: dwarf-hill
     type: humanoid
     stats-bonus:
-        intelligence: 1
+        constitution: 2
+        wisdom: 1
     skill-profs:
-        - religion
-        - stealth
     abilities:
-        - "Yell really loud"
+        - "Darkvision"
+        - "Dwarven Toughness - Your hit point maximum increases by 1, and it increases by 1 every time you gain a level." 
+        - "Dwarven Resilience -- You have advantage on saving throws against poison, and you have resistance against poison damage."
+        - "Stonecunning - Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    speed: 25
     languages:
         - common
+        - dwarvish
+---
+race:
+    name: dwarf-mountain
+    type: humanoid
+    stats-bonus:
+        constitution: 2
+        strength: 2
+    skill-profs:
+    abilities:
+        - "Darkvision"
+        - "Dwarven Toughness - Your hit point maximum increases by 1, and it increases by 1 every time you gain a level." 
+        - "Stonecunning - Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    speed: 25
+    languages:
+        - common
+        - dwarvish
+---
+race:
+    name: dragonborn
+    type: humanoid
+    stats-bonus:
+        charisma: 1
+        strength: 2
+    skill-profs:
+    abilities:
+        - "Draconic Ancestry -- You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table. https://www.dndbeyond.com/races/dragonborn"
+        - "Darkvision"
+        - "Dwarven Toughness - Your hit point maximum increases by 1, and it increases by 1 every time you gain a level." 
+        - "Stonecunning - Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    speed: 30
+    languages:
+        - common
+        - dwarvish

@@ -7,13 +7,113 @@ weights:
           races:
             - name: human
               w: 1
+            - name: dwarf-hill
+              w: 9
+            - name: dwarf-mountain
+              w: 8
+            - name: dragonborn
+              w: 4
+            - name: elf-dark
+              w: 4
+            - name: elf-high
+              w: 9
+            - name: elf-wood
+              w: 8
+            - name: gnome-forest
+              w: 4
+            - name: gnome-rock
+              w: 6
+            - name: half-elf //
+              w: 1
+            - name: halfling
+              w: 1
             - name: dwarf
+              w: 1
+            - name: half-orc
+              w: 1
+            - name: tiefling
               w: 1
         - book-meta:
             title: Volos
             file: races/volos.yaml
           races: 
+            - name: aasimar
+              w: 1
+            - name: bugbear
+              w: 1
+            - name: firbolg
+              w: 1
+            - name: goblin
+              w: 1
+            - name: hobgoblin
+              w: 1
+            - name: kenku
+              w: 1
+            - name: kobold
+              w: 1
             - name: lizardfolk
+              w: 1
+            - name: orc
+              w: 1
+            - name: tabaxi
+              w: 1
+            - name: triton
+              w: 1
+            - name: yuan-ti
+              w: 1
+        - book-meta:
+            title: Elemental Evil Players Companion
+            file: races/eepc.yaml
+          races: 
+            - name: aarakocra
+              w: 1
+            - name: genasi
+              w: 1
+            - name: goliath
+              w: 1
+        - book-meta:
+            title: Sword Coast Adventurer's Guide
+            file: races/scag.yaml
+          races: 
+            - name: feral-tiefling
+              w: 1
+        - book-meta:
+            title: The Tortle Package
+            file: races/tortle.yaml
+          races: 
+            - name: tortle 
+              w: 1
+        - book-meta:
+            title: Mordenkainen's Tome of Foes
+            file: races/mordenkainen.yaml
+          races: 
+            - name: gith
+              w: 1
+        - book-meta:
+            title: Wayfinder's Guide to Eberron
+            file: races/eberron.yaml
+          races: 
+            - name: changeling
+              w: 1
+            - name: kalashtar
+              w: 1
+            - name: shifter
+              w: 1
+            - name: warforged
+              w: 1
+        - book-meta:
+            title: Guildmasters' Guide to Ravnica
+            file: races/ravnica.yaml
+          races: 
+            - name: centaur
+              w: 1
+            - name: loxodon
+              w: 1
+            - name: minotaur
+              w: 1
+            - name: simic-hybrid
+              w: 1
+            - name: vedalken
               w: 1
 
     race: 

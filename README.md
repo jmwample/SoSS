@@ -17,9 +17,9 @@ background does not change.
 
 
 (DM DISCRETION) 
-The PC attuned to this item may recall the x previous races chosen by the staff 
+The PC attuned to this item may recall the *N* previous races chosen by the staff 
 and willingly use the daily transformation to return one of those races. The 
-value of x may be:
+value of *N* may be:
 - The PC's Int 
 - All previously acheived races
 - All races

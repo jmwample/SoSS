@@ -23,8 +23,6 @@ import yaml
 
 def main(argd):
 
-    # print(argd)
-
     # custom files
     if not (argd['--weights'] == None):
         WEIGHTS_FILE = argd['--weights']
